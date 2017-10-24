@@ -1,0 +1,18 @@
+{% extends "main.html" %}
+{% block content %}
+{% include "header.html" %}
+	<div class = "row">
+		<div class = "col-md-12"></div>
+	</div>
+	<div class="row">
+		<div class="col-md-1"></div>
+		<div class="col-md-11 padding-none">
+			<h1>{{item.name}}</h1>
+		</div>
+	</div>
+
+	<div class = "row">
+		<p>{{item.description}}</p>
+	</div>
+
+{% endblock %}
