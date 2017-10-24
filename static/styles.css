@@ -1,0 +1,138 @@
+* {
+	font-family: "Helvetica Neue Bold", Roboto, Helvetica, Arial, sans-serif;
+	font-weight: 700;
+	color:white;
+	background-color:black;
+}
+
+.container{
+	width:100%;
+	height:100%;
+	padding-right:50px;
+	padding-left:50px;
+}
+
+
+h1 {
+	font-family: "Helvetica Neue Light", Roboto, Helvetica, Arial, sans-serif;
+	font-size: 50px;
+	color: white;
+	line-height: 60px;
+	font-weight: 300;
+}
+
+h2 {
+	font-size: 24px;
+	color: white;
+	line-height: 29px;
+}
+
+h3 {
+	font-size: 20px;
+	color: white;
+	line-height: 23px;
+}
+
+p {
+ 	font-family: "Helvetica Neue", Roboto, Helvetica, Arial, sans-serif;
+ 	font-size: 16px;
+ 	color: white;
+ 	line-height: 24px;
+ 	font-weight: 400;
+ }
+
+ strong {
+ 	font-size: 16px;
+ 	color: white;
+ 	line-height: 24px;
+ }
+
+ a {
+ 	font-size: 14px;
+ 	color: white;
+ 	line-height: 17px;
+ }
+
+.padding-top {
+	padding-top: 30px;
+}
+.padding-bottom {
+	padding-bottom: 30px;
+}
+.margin-right {
+	margin-right: 30px;
+}
+.padding-none {
+	padding: 0;
+}
+.btn {
+	padding: 8px;
+	margin: 20px;
+	border-color: white;
+	border-width: 3px;
+	color: black;
+}
+.btn:hover {
+	border-color: white;
+}
+.btn.delete {
+	border-color: #aaaaaa;
+	color: #aaaaaa;
+}
+.btn.delete:hover {
+	border-color: #aaaaaa;
+	color: red;
+}
+.glyphicon {
+	margin-right: 10px;
+}
+
+.creator {
+	padding-right: 20px;
+	margin-top: -20px;
+	text-align: right;
+	float:right;
+}
+.creator img {
+	width: 100px;
+	border-radius: 50%;
+}
+.creator figcaption {
+	font-size: 14px;
+	color: #7B7573;
+	font-weight: 400;
+	margin-top: -20px;
+}
+.flash {
+	background-color: #98FB98;
+	width:100%;
+	text-decoration: none;
+
+}
+
+.flash li {
+	list-style-type: none;
+	text-align: center;
+
+}
+ .catalog-list {
+ 	background-color: black;
+	color: white;
+	padding:20px;
+	padding-left:100px;
+	
+}
+ .catalog-list h3:hover{
+	transition-delay: 0.01s;
+	-webkit-transition-delay: 0.01s;
+ 	background-color: black;
+	color: #C0C0C0;
+	font-size:200%;
+}
+.item {
+	background: black;
+	padding: 20px;
+	margin: 20px;
+	color:white;
+	margin-left: -20px;
+}
